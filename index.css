@@ -86,7 +86,6 @@ body {
   margin: 0 19.2px;
   box-shadow: -100px 20px 5px #fff, 100px 20px 10px #fff;
   animation: snowball 15s linear infinite;
-  animation-delay: calc(var(--i));
   animation-duration: calc(55s / var(--i));
 }
 
