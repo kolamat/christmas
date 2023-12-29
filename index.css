@@ -29,7 +29,7 @@ body {
   z-index: 1;
 }
 
-.container.circle {
+.container .circle {
   position: absolute;
   top: 10%;
   left: 50%;
