@@ -102,3 +102,22 @@ body {
     transform: translateY(100vh);
   }
 }
+
+@media (max-width: 701px) {
+  .container .circle::before {
+    background-size: 600px;
+  }
+
+  .container .circle::after {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 601px) {
+  .container .circle::before {
+    background-size: 460px;
+  }
+  .container .circle::after {
+    font-size: 46px;
+  }
+}
