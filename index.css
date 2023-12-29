@@ -111,6 +111,11 @@ body {
   .container .circle::after {
     font-size: 60px;
   }
+
+  .container .circle {
+    width: 280px;
+    height: 280px;
+  }
 }
 
 @media (max-width: 601px) {
