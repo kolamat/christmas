@@ -121,3 +121,12 @@ body {
     font-size: 46px;
   }
 }
+
+@media (max-width: 455px) {
+  .container .circle::before {
+    background-size: 360px;
+  }
+  .container .circle::after {
+    font-size: 36px;
+  }
+}
