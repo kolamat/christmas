@@ -84,4 +84,16 @@ body {
   background: #fff;
   border-radius: 24px;
   margin: 0 19.2px;
+  box-shadow: -100px 20px 5px #fff, 100px 20px 10px #fff;
+  animation: snowball 15s linear infinite;
+  animation-delay: calc(55s / var(--i));
+}
+
+@keyframes snowball {
+  0% {
+    transform: translateY(-10vh);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
 }
