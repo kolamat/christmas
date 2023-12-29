@@ -65,7 +65,7 @@ body {
 }
 
 .container .circle::after {
-  content: "Happy Christmas";
+  content: "Merry Christmas";
   position: absolute;
   inset: -125px -200px;
   font-size: 64px;
